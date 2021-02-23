@@ -1,0 +1,194 @@
+html,
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* NAV */
+
+.navbar {
+    background-color: white;
+    opacity: 0.9;
+}
+
+/* CONTENT */
+h1 {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    color: white;
+    letter-spacing: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.308);
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #790f0f;
+    box-shadow: 0 4px 6px -6px rgba(121, 15, 15, 1);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.bg-1 {
+    background-color: #B71C1C;
+}
+
+.bg-2 {
+    background-color: #C62828;
+}
+
+.slider {
+    width: 100%;
+}
+
+.office {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo1 {
+    width: 100%;
+}
+
+
+.tippler {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.aboutUs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/main-tippler.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.company {
+    width: 60%;
+    background-color: rgba(128, 128, 128, 0.637);
+    text-align: left;
+}
+
+@media(max-width:768px) {
+    .company {
+        text-align: left;
+    }
+}
+
+#aboutCompany {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/Wywrotnica\ samochodowa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 768px) {
+
+    iframe {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    iframe {
+        width: 200px;
+        height: auto;
+    }
+}
+
+
+.downloadCard {
+    color: white;
+}
+
+p,
+p~li {
+    color: white;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
+}
+
+
+/* ICON */
+
+.bi {
+    font-style: normal;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.bi-linkedin {
+    font-size: 2rem;
+    /* color: #0077b5; */
+}
+
+.bi-youtube {
+    font-size: 2rem;
+    /* color: red; */
+}
+
+.bi-youtube:hover,
+.bi-linkedin:hover {
+    color: rgb(250, 210, 210);
+}
+
+
+
+.bi-caret-right {
+    font-size: 15px;
+}
+
+.bi-tools,
+.bi-book,
+.bi-bookmark-check,
+.bi-truck,
+.bi-pencil,
+.bi-gear {
+    font-size: 2.5rem;
+
+}
